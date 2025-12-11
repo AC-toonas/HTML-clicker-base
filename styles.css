@@ -1,0 +1,58 @@
+body {
+    background-color:rgb(156, 208, 209);
+    text-align: center;
+}
+button {
+    font-size: 20px;
+    margin: 10px
+}
+
+#ClickCount {
+    font-size: 20px;
+    cursor: pointer
+}
+
+#ClickMe {
+    padding: 10px 15px;
+    background-color: #27a5f8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#ClickMe:hover {
+    background-color: #0960ab;
+}
+
+.sidebar {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    background: #4291f8;
+    padding: 10px;
+}
+
+.main {
+    width: 70%;
+    display: inline-block;
+}
+
+
+
+.reset-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+    padding: 10px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reset-btn:hover {
+    background-color: #e60000;
+}
